@@ -10,7 +10,7 @@ adalah_member = input("Apakah member? (ya/tidak): ").lower()
 subtotal = harga * jumlah
 
 if adalah_member == "ya":
-    diskon = subtotal * 0.1  
+    diskon = subtotal * 0.6  
     print("Status: Member - Diskon 10%")
 else:
     diskon = 0
