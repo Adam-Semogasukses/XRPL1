@@ -10,7 +10,7 @@ adalah_member = input("Apakah member? (ya/tidak): ").lower()
 subtotal = harga * jumlah
 
 if adalah_member == "ya":
-    diskon = subtotal * 0.1  
+    diskon = subtotal * 0.6  
     print("Status: Member - Diskon 10%")
 else:
     diskon = 0
@@ -25,4 +25,5 @@ print(f"Harga satuan  : Rp{harga:,.2f}")
 print(f"Jumlah barang : {jumlah}")
 print(f"Subtotal      : Rp{subtotal:,.2f}")
 print(f"Diskon        : Rp{diskon:,.2f}")
+
 print(f"Total bayar   : Rp{total:,.2f}")
