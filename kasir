@@ -11,7 +11,7 @@ subtotal = harga * jumlah
 
 if adalah_member == "ya":
     diskon = subtotal * 0.6  
-    print("Status: Member - Diskon 60%")
+    print("Status: Member - Diskon 40%")
 else:
     diskon = 0
     print("Status: Bukan Member - Tidak ada diskon")
